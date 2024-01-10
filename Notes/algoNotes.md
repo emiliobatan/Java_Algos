@@ -15,3 +15,22 @@
 - The LEAST complex and least efficient way to search for a subset of strings within a string is to use the built in contains method 
 
 - Another type of software task is to create a new string based on input data 
+
+- QUESTIONS:
+1. If we wanted to find out if a certain substring existed within a string, what would we do?
+    - Us the built in contains method
+
+2. What type of data does a validation algo return?
+    - Boolean (true/false)
+
+3. How can we find out if any characters within a string s meets condition?
+    - use anyMatch on a character stream of s
+
+4. What data type has a built in reverse function?
+    - StringBuilder
+
+5. What can we use to iterate through a string and access each index within the string at the same time?
+    - for loop
+
+6. What tool or tools can we use to work with Strings more efficiently?
+    - StringBuilder
