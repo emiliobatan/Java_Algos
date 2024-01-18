@@ -9,5 +9,8 @@ public class arrayAlgoPrac {
         System.out.println(linearSearchAlgo.linearSearch(arr, 1));
         System.out.println(linearSearchAlgo.linearSearch(arr, 8));
 
+        linearSearchAlgo.linearSearch2(arr, 1).ifPresent(System.out::println);
+        linearSearchAlgo.linearSearch2(arr, 8).ifPresent(System.out::println);
+
     }
 }

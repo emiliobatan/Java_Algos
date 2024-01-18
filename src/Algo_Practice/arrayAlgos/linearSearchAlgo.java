@@ -1,5 +1,8 @@
 package Algo_Practice.arrayAlgos;
 
+import java.util.Arrays;
+import java.util.OptionalInt;
+
 public class linearSearchAlgo {
 
     // int[] arr = { 1, 2, 3, 4, 5, 6, };
@@ -11,12 +14,18 @@ public class linearSearchAlgo {
     public static boolean linearSearch(int[] arr, int item){
         for (int current : arr){
             if (current == item) {
-                System.out.println(current);
+                // System.out.println(current);
                 return true;
             }
         }
 
         return false;
+    }
+
+
+    public static OptionalInt linearSearch2(int [] arr, int item){
+        return Arrays.stream(arr).filter(x -> x == item).findFirst();
+
     }
 
 }
