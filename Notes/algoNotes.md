@@ -34,3 +34,17 @@
 
 6. What tool or tools can we use to work with Strings more efficiently?
     - StringBuilder
+
+
+
+## Array Algos
+
+- Searching through data structures is a common task in software development 
+
+- With a search algorithm, you need to input data to search and the item you are trying to find
+
+- Input: the dataset and the item to search for
+
+- Output: true/false or the item itself 
+
+- Linear Search also known as a Sequential Search
