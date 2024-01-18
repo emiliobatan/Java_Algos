@@ -61,3 +61,14 @@
     We must move the front of our pointers to 20 and the end to 92 
     This puts our midpoint at 54, (which is the number wr are searching for)
     Then we can either return true, the index or the number stating it is in the array 
+
+
+- Aggregating and filtering data are common programming operations 
+- Aggregating: Combining two or more data sets into one single data set
+    When combining the data sets, you may want or need to filter them
+
+<ins>Aggregating Valid Contents from Two Arrays </ins>
+1. Merge arrays and then remove invalid items
+2. Check each element and only keep valid items
+3. Sort each array and take only valid items
+
