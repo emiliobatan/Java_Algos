@@ -48,3 +48,16 @@
 - Output: true/false or the item itself 
 
 - Linear Search also known as a Sequential Search
+
+- BINARY SEARCH:
+    - A divide and conquer algorithm where in each step it halves the number of elements it has to search through
+                    M 
+    EX: { 0, 7, 10, 20, 39, 54, 92 }
+
+    We are tasked to find the number 54 
+    We start our mid point in the middle of the array : AT 20 
+
+    Since 20 is not our number and is less than 54 
+    We must move the front of our pointers to 20 and the end to 92 
+    This puts our midpoint at 54, (which is the number wr are searching for)
+    Then we can either return true, the index or the number stating it is in the array 
